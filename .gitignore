@@ -1,0 +1,91 @@
+# ==========================================
+# Eduvance AI - .gitignore
+# ==========================================
+
+# Environment variables and secrets (Strict: No exceptions)
+.env
+.env.*
+.env*
+*.env
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Internal team tracking files (Rule 4: Public repository without internal tracking files)
+Members/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vite/
+dist/
+build/
+.next/
+out/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary uploads and generated media artifacts
+# (Prevent pushing large video renders or test user PDFs to GitHub)
+uploads/*
+!uploads/.gitkeep
+generated_media/*
+!generated_media/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# Operating System & IDEs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
