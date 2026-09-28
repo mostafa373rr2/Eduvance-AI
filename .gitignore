@@ -12,9 +12,6 @@
 credentials.json
 secrets.json
 
-# Internal team tracking files (Rule 4: Public repository without internal tracking files)
-Members/
-
 
 # Python
 __pycache__/
